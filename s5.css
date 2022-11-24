@@ -1,0 +1,26 @@
+body{
+background-color: azure;
+color: blueviolet;
+margin: 5px;
+padding: 2px;
+font-family: 'Franklin Gothic Medium', 'Arial narrow', Arial, sans-serif; 
+}
+header,
+footer {
+    text-align: center;
+    background-color: rgb(209, 232, 252);
+}
+p{
+    text-align: justify;
+    text-indent: 8ch;
+}
+p::first-letter{
+    font-size: 120%;
+    color: rgb(104, 32, 172);
+    text-decoration-line: underline;
+}
+h3::first-letter {color: rgb(43, 13, 71);}
+h2,h3,h4{
+    color: rgb(66, 66, 211);
+text-decoration-line: underline;
+}

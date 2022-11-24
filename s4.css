@@ -1,0 +1,19 @@
+body{
+background-color: azure;
+color: blueviolet;
+margin: 5px;
+padding: 2px;
+}
+header,
+footer {
+    text-align: center;
+    background-color: rgb(209, 232, 252);
+}
+p{
+    text-align: justify;
+    text-indent: 8ch;
+}
+h2,h3,h4{
+    color: rgb(66, 66, 211);
+text-decoration-line: underline;
+}
