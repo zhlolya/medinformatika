@@ -1,14 +1,15 @@
 body{
-background-color: azure;
-color: blueviolet;
+background-color: rgb(177, 221, 204);
+color: black;
 margin: 5px;
 padding: 2px;
 font-family: 'Franklin Gothic Medium', 'Arial narrow', Arial, sans-serif; 
 }
+
 header,
 footer {
-    text-align: center;
-    background-color: rgb(209, 232, 252);
+    text-align: left;
+    background-color: white;
 }
 p{
     text-align: justify;
@@ -16,11 +17,41 @@ p{
 }
 p::first-letter{
     font-size: 120%;
-    color: rgb(104, 32, 172);
+    color:rgb(200, 31, 31);
     text-decoration-line: underline;
 }
-h3::first-letter {color: rgb(43, 13, 71);}
-h2,h3,h4{
-    color: rgb(66, 66, 211);
+h1{
+    color:black;
 text-decoration-line: underline;
+}
+aside {
+    background-color: black;
+    padding: 5px;
+    width: 10px;
+    float: left;
+}
+h2{
+    color: black;
+text-decoration-line: underline;
+}
+h3{
+    color: black;
+text-decoration-line: left;
+}
+h4{
+    color: black;
+text-decoration-line: left;
+}
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	background: white;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
 }
